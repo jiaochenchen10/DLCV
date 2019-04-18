@@ -124,5 +124,3 @@ class ResNet:
             model=Model(inputs,x,name="resnet")
             print(model.summary())
             return model
-        from keras.applications import inception_v3
-        
